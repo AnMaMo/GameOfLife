@@ -11,12 +11,20 @@
 
 <body>
     <h1>GAME OF LIFE</h1>
-    <div class="GameBoard"><table></table></div>
+    <div class="game">
+        <div id="varInfo1" class="varInfo"></div>
+        <div id="gameBoardId" class="GameBoard"><table></table></div>
+        <div id="varInfo2" class="varInfo">
+            <h3>Party Stats</h3>
+            <p>Time: <span id="partyTime">0</span></p></div>
+    </div>
 
     <div class="buttons">
-        <div class="button">START</div>
-        <div class="button">RANDOM</div>
-        <div class="button">CLEAR</div>
+        <div class="button" onclick="startParty()">START</div>
+        <div class="button" onclick="stopParty()">STOP</div>
+        <div class="button" onclick="generateRandomBoard()">RANDOM</div>
+        <div class="button" onclick="clearBoard()">CLEAR</div>
+        <div class="button" onclick="generateNewBoard()">test</div>
     </div>
 </body>
 
