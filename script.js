@@ -5,7 +5,7 @@ var y = 30;
 /**
  * On Load the page
  */
-window.onload = function OpenGame() {
+window.onload = function() {
     createTable();
 }
 

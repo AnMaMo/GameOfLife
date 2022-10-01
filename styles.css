@@ -1,11 +1,9 @@
 :root{
     /* Global variable colors*/
-    --color1: #f9b94b;
-    --color2: #141852;
-    --color3: #b3b3b3;
-    --color4: #855988;
-    --color5: #39393a;
-    --color6: #b64545;
+    --color1: #f4d35e;
+    --color2: #2e2f5b;
+    --color3: #505581;
+    --color4: #c9c8c7;
     --white: #d8d8d8;
     --black: #292929;
 }
@@ -17,7 +15,7 @@
 
 
 body{
-    background-color: var(--color3);
+    background-color: var(--color4);
 }
 
 
@@ -54,14 +52,15 @@ h1{
   overflow-wrap: break-word;
 }
 
-#varInfo2{
-  border: 1px solid var(--black);
-}
-
 .GameBoard, .varInfo{
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+#varInfo2{
+  border: 1px solid var(--black);
+  margin-right: auto;
 }
 
 
